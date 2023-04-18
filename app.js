@@ -9,8 +9,8 @@ function PageTransitions(){
     for(let i = 0; i < sectBtn.length; i++){
         sectBtn[i].addEventListener('click', () => {
             let currentBtn = document.querySelectorAll('.active-Btn');
-            currentBtn[0].classList = currentBtn[0].className.replace('active-Btn', '')
-            this.className += 'active-Btn';
+            currentBtn[0].className = currentBtn[0].className.replace('active-Btn', '')
+            this.className += '.active-Btn';
            }
         )
     }
