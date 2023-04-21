@@ -59,25 +59,25 @@ section {
 .sec1 {
   display: none;
   transform: translateY(o) scale(1);
-  background-color: rgb(162, 162, 17);
+  background-color: #0d15fd;
 }
 
 .sec2 {
   display: none;
   transform: translateY(o) scale(1);
-  background-color: slateblue;
+  background-color: #fd0d3d;
 }
 
 .sec3 {
   display: none;
   transform: translateY(o) scale(1);
-  background-color: rgb(147, 212, 25);
+  background-color: #fd0dd1;
 }
 
 .sec4 {
   display: none;
   transform: translateY(o) scale(1);
-  background-color: rgb(172, 172, 12);
+  background-color: #bd0dfd;
 }
 
 .sec5 {
