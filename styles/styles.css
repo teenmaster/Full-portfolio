@@ -58,35 +58,44 @@ section {
 
 .sec1 {
   display: none;
-  transform: translateY(o) scale(1);
-  background-color: #0d15fd;
+  transform: translateY(0) scale(1);
+  background-color: #ced9ff;
 }
 
 .sec2 {
   display: none;
-  transform: translateY(o) scale(1);
-  background-color: #fd0d3d;
+  transform: translateY(0) scale(1);
+  background-color: #7487ff;
 }
 
 .sec3 {
   display: none;
-  transform: translateY(o) scale(1);
-  background-color: #fd0dd1;
+  transform: translateY(0) scale(1);
+  background-color: #161dff;
 }
 
 .sec4 {
   display: none;
-  transform: translateY(o) scale(1);
-  background-color: #bd0dfd;
+  transform: translateY(0) scale(1);
+  background-color: #050aad;
 }
 
 .sec5 {
   display: none;
-  transform: translateY(o) scale(1);
+  transform: translateY(0) scale(1);
 }
 
 .active {
   display: block;
+  animation: scaleAnim 1s ease-in-out;
+}
+@keyframes scaleAnim {
+  0% {
+    transform: translateY(-100%) scaleY(0);
+  }
+  100% {
+    transform: translateY(0) scaleY(1);
+  }
 }
 
 /*controlls*/
