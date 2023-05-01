@@ -1,8 +1,5 @@
 
-    .right-about{
-     display: grid;
-     grid-template-columns: repeat(2, 1fr);
-     grid-gap: 2rem;
+    /*
      .about-item{
          border: 1px solid var(--color-grey-5);
          border-radius: 5px;
@@ -95,4 +92,4 @@
              }
          }
      }
- }
+ }*/
